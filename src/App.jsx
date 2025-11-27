@@ -132,6 +132,80 @@ export default function App() {
           <p className="text-sm opacity-90">{mision.justificacion}</p>
         </section>
 
+        {/* SECCIÓN ANÁLISIS FODA */}
+        <section id="foda" className="p-6 rounded-2xl bg-white shadow-md">
+          <h3 className="text-2xl font-semibold mb-4">Análisis FODA Personal</h3>
+          <div className="grid md:grid-cols-2 gap-6">
+            <div>
+              <h4 className="font-medium mb-2">Fortalezas</h4>
+              <ul className="list-disc ml-6 text-sm space-y-1">
+                <li>Comunicación clara y asertiva</li>
+                <li>Creatividad para resolver problemas</li>
+                <li>Disciplina y constancia</li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="font-medium mb-2">Oportunidades</h4>
+              <ul className="list-disc ml-6 text-sm space-y-1">
+                <li>Acceso a formación profesional</li>
+                <li>Crecimiento en la industria tecnológica</li>
+                <li>Red de contactos en expansión</li>
+              </ul>
+            </div>
+            <div>
+              <h4 class="font-medium mb-2">Debilidades</h4>
+              <ul class="list-disc ml-6 text-sm space-y-1">
+                <li>Perfeccionismo excesivo</li>
+                <li>Dificultad para delegar</li>
+              </ul>
+            </div>
+            <div>
+              <h4 class="font-medium mb-2">Amenazas</h4>
+              <ul class="list-disc ml-6 text-sm space-y-1">
+                <li>Alta competitividad profesional</li>
+                <li>Cambios rápidos en tecnologías</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        {/* SECCIÓN OBJETIVOS SMART */}
+        <section id="smart" class="p-6 rounded-2xl bg-gradient-to-r from-slate-50 to-white shadow-sm">
+          <h3 class="text-2xl font-semibold mb-4">Objetivos SMART</h3>
+          <ol class="list-decimal ml-6 space-y-2 text-sm">
+            <li>Completar un portafolio profesional en 3 meses.</li>
+            <li>Mejorar nivel de inglés a B2 en 6 meses.</li>
+            <li>Certificarme en React antes de finalizar el semestre.</li>
+            <li>Leer 1 libro técnico al mes por 8 meses.</li>
+            <li>Asistir a 3 eventos tecnológicos antes de terminar el año.</li>
+            <li>Implementar hábitos de estudio 2 horas diarias por 4 meses.</li>
+            <li>Ahorrar el 15% de mis ingresos durante 12 meses.</li>
+            <li>Mejorar mi salud física entrenando 4 días por semana por 6 meses.</li>
+          </ol>
+        </section>
+
+        {/* SECCIÓN AGENDA DE RELACIONES ESTRATÉGICAS */}
+        <section id="relaciones" class="p-6 rounded-2xl bg-white shadow-md">
+          <h3 class="text-2xl font-semibold mb-4">Agenda de Relaciones Estratégicas</h3>
+          <p class="text-sm mb-4 opacity-90">Personas clave que fortalecen mi crecimiento profesional y personal.</p>
+          <div class="space-y-4">
+            <article class="p-4 border rounded-lg">
+              <h4 class="font-medium">Mentores</h4>
+              <ul class="list-disc ml-6 text-sm space-y-1">
+                <li>Profesor/a de programación — Acción: solicitar retroalimentación mensual.</li>
+                <li>Líder de equipo — Acción: pedir sesiones de mentoría cada 2 semanas.</li>
+              </ul>
+            </article>
+            <article class="p-4 border rounded-lg">
+              <h4 class="font-medium">Contactos profesionales</h4>
+              <ul class="list-disc ml-6 text-sm space-y-1">
+                <li>Compañeros de carrera — Acción: colaborar en proyectos cada semestre.</li>
+                <li>Comunidad tech local — Acción: asistir a reuniones y meetups.</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
         {/* GALERÍA */}
         <section id="galeria" className="p-6 rounded-2xl bg-gradient-to-t from-slate-50 to-white shadow-sm">
           <h3 className="text-2xl font-semibold mb-4">Galería de valores</h3>
@@ -146,6 +220,12 @@ export default function App() {
               </figure>
             ))}
           </div>
+        </section>
+
+        {/* SECCIÓN REFLEXIÓN FINAL */}
+        <section id="reflexion" className="p-6 rounded-2xl bg-white shadow-md">
+          <h3 className="text-2xl font-semibold mb-4">Reflexión Final del Curso</h3>
+          <p className="text-sm opacity-90">Este curso me permitió descubrir nuevas herramientas para comprender mis fortalezas, mi propósito y mi estilo de liderazgo. A través del análisis personal, la misión, el FODA y los objetivos SMART, desarrollé claridad sobre mi camino profesional y sobre las relaciones clave que debo fortalecer. Este proyecto web no solo es una evidencia académica, sino una guía real hacia mi propio crecimiento.</p>
         </section>
 
         {/* PIE DE PÁGINA + CONTACTO */}
